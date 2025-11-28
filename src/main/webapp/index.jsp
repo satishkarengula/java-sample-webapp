@@ -48,7 +48,7 @@
 <body>
     <div class="container">
         <h1>Welcome to DevOps</h1>
-        <div class="author">- Satish Karengula</div>
+        <div class="author">- Dhananjay</div>
     </div>
 </body>
 </html>
