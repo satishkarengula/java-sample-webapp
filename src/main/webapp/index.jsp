@@ -51,14 +51,17 @@
             z-index: -1;
         }
 
-        .logo {
-            width: 110px;
-            height: 110px;
-            border-radius: 50%;
-            object-fit: cover;
+        /* TEXT LOGO STYLE */
+        .text-logo {
+            font-size: 48px;
+            font-weight: 800;
+            color: #ffffff;
+            letter-spacing: 3px;
             margin-bottom: 20px;
-            border: 3px solid rgba(255,255,255,0.5);
-            box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+            text-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            background: linear-gradient(45deg, #ffffff, #ffe9c6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         h1 {
@@ -92,8 +95,8 @@
 <body>
     <div class="container">
 
-        <!-- LOGO IMAGE -->
-        <img src="logo.png" alt="Logo" class="logo">
+        <!-- TEXT LOGO -->
+        <div class="text-logo">Arun</div>
 
         <h1>Welcome to DevOps</h1>
         <div class="author">- Arun K B</div>
