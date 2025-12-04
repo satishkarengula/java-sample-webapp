@@ -4,6 +4,9 @@
 <head>
     <title>Welcome Page</title>
 
+    <!-- Google Signature Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
     <style>
         * {
             margin: 0;
@@ -51,17 +54,18 @@
             z-index: -1;
         }
 
-        /* TEXT LOGO STYLE */
-        .text-logo {
-            font-size: 48px;
-            font-weight: 800;
+        /* SIGNATURE LOGO STYLE */
+        .signature-logo {
+            font-family: 'Great Vibes', cursive;
+            font-size: 70px;
+            font-weight: normal;
             color: #ffffff;
-            letter-spacing: 3px;
-            margin-bottom: 20px;
-            text-shadow: 0 4px 12px rgba(0,0,0,0.4);
-            background: linear-gradient(45deg, #ffffff, #ffe9c6);
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #fff, #ffe7c2);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            text-shadow: 0 4px 10px rgba(0,0,0,0.4);
+            letter-spacing: 2px;
         }
 
         h1 {
@@ -95,8 +99,8 @@
 <body>
     <div class="container">
 
-        <!-- TEXT LOGO -->
-        <div class="text-logo">Arun</div>
+        <!-- SIGNATURE LOGO -->
+        <div class="signature-logo">Arun</div>
 
         <h1>Welcome to DevOps</h1>
         <div class="author">- Arun K B</div>
