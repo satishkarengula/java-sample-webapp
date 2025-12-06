@@ -42,7 +42,7 @@
 
                 <div class="row">
                     <button type="submit" class="btn-primary">SUBMIT</button>
-                    <button type="reset" class="btn-secondary" style="background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--muted);border-radius:10px;padding:10px 14px;">Reset</button>
+                    <button type="reset" class="btn-secondary" style="background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--muted);border-radius:10px;padding:10px 14px;">RESET</button>
                 </div>
 
                 <div class="meta">Tip: Each deploy will change the server info displayed in the right column.</div>
