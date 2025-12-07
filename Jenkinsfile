@@ -1,6 +1,6 @@
 pipeline {
     agent any
-stages {
+    stages {
         stage("Build") {
             when {
                 branch "develop"
@@ -18,15 +18,15 @@ stages {
                 echo "Deployment happens here"
             }
         }
-       stage("Deploy-Prod") {
-           when {
-               branch "main"
-           }
+
+        stage("Deploy-Prod") {
+            when {
+                branch "main"
+            }
             steps {
                 echo "Deployment happens here"
             }
         }
-      
-        }
     }
 }
+
