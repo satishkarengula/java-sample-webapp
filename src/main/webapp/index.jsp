@@ -31,7 +31,7 @@
                     <select id="environment" name="environment">
                         <option value="dev">Development</option>
                         <option value="qa">QA/Test</option>
-                        <option value="prod">Production</option>
+                        <option value="production">Production</option>
                     </select>
                 </div>
 
