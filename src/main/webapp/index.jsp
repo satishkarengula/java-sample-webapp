@@ -30,8 +30,8 @@
                     <label for="environment">Select Environment</label>
                     <select id="environment" name="environment">
                         <option value="dev">Development</option>
-                        <option value="qa">QA/Test</option>
-                        <option value="production">Production</option>
+                        <option value="qa">QA</option>
+                        <option value="production">Prod</option>
                     </select>
                 </div>
 
