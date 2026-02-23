@@ -9,7 +9,7 @@ pipeline {
         echo "Build happens here"
       }
     }
-    stage("dev-deploymnet){
+    stage("dev-deploymnet"){
       when {
         branch "develop"
       }
@@ -17,7 +17,7 @@ pipeline {
             echo "dev deployment"
           }
     }
-    stage("prod-deploymnet){
+    stage("prod-deploymnet"){
       when {
         branch "main"
       }
