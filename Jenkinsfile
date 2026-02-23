@@ -6,5 +6,10 @@ pipeline {
         echo "Git checkout happens here"
       }
     }
+    stage("build stage"){
+      steps {
+        echo "Build happens here"
+      }
+    }
   }
 }
